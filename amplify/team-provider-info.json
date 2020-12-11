@@ -1,14 +1,50 @@
 {
-  "master": {
+  "prod": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-authcra-master-122312-authRole",
-      "UnauthRoleArn": "arn:aws:iam::675192274537:role/amplify-authcra-master-122312-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::675192274537:role/amplify-authcra-master-122312-authRole",
+      "AuthRoleName": "amplify-create-react-app-auth-amplify-prod-131738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::675192274537:role/amplify-create-react-app-auth-amplify-prod-131738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::675192274537:role/amplify-create-react-app-auth-amplify-prod-131738-authRole",
       "Region": "eu-west-2",
-      "DeploymentBucketName": "amplify-authcra-master-122312-deployment",
-      "UnauthRoleName": "amplify-authcra-master-122312-unauthRole",
-      "StackName": "amplify-authcra-master-122312",
-      "StackId": "arn:aws:cloudformation:eu-west-2:675192274537:stack/amplify-authcra-master-122312/a3880960-3bab-11eb-b756-0a5e9edf4660",
+      "DeploymentBucketName": "amplify-create-react-app-auth-amplify-prod-131738-deployment",
+      "UnauthRoleName": "amplify-create-react-app-auth-amplify-prod-131738-unauthRole",
+      "StackName": "amplify-create-react-app-auth-amplify-prod-131738",
+      "StackId": "arn:aws:cloudformation:eu-west-2:675192274537:stack/amplify-create-react-app-auth-amplify-prod-131738/3e159a40-3bb3-11eb-a3a6-068f10f1b120",
+      "AmplifyAppId": "d7x6hz3l9apjm"
+    },
+    "categories": {
+      "auth": {
+        "cognitocf0c6096": {}
+      }
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-create-react-app-auth-amplify-test-150633-authRole",
+      "UnauthRoleArn": "arn:aws:iam::675192274537:role/amplify-create-react-app-auth-amplify-test-150633-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::675192274537:role/amplify-create-react-app-auth-amplify-test-150633-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-create-react-app-auth-amplify-test-150633-deployment",
+      "UnauthRoleName": "amplify-create-react-app-auth-amplify-test-150633-unauthRole",
+      "StackName": "amplify-create-react-app-auth-amplify-test-150633",
+      "StackId": "arn:aws:cloudformation:eu-west-2:675192274537:stack/amplify-create-react-app-auth-amplify-test-150633/14540aa0-3bba-11eb-a374-020a477b9a30",
+      "AmplifyAppId": "d7x6hz3l9apjm"
+    },
+    "categories": {
+      "auth": {
+        "cognitocf0c6096": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-create-react-app-auth-amplify-dev-152737-authRole",
+      "UnauthRoleArn": "arn:aws:iam::675192274537:role/amplify-create-react-app-auth-amplify-dev-152737-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::675192274537:role/amplify-create-react-app-auth-amplify-dev-152737-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-create-react-app-auth-amplify-dev-152737-deployment",
+      "UnauthRoleName": "amplify-create-react-app-auth-amplify-dev-152737-unauthRole",
+      "StackName": "amplify-create-react-app-auth-amplify-dev-152737",
+      "StackId": "arn:aws:cloudformation:eu-west-2:675192274537:stack/amplify-create-react-app-auth-amplify-dev-152737/05693211-3bbd-11eb-b12f-064d925fbd02",
       "AmplifyAppId": "d7x6hz3l9apjm"
     },
     "categories": {
